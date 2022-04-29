@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<strong>Doge Bot V3</strong>
+<strong>Dogesh Bot V3</strong>
 </p>
 
 </div>
@@ -29,7 +29,7 @@
 
 ## `CHANGE SESSION`
 
-[`Click Here`](https://github.com/RIDERGORANSH/DogeBot2/blob/master/session.json#L1)
+[`Click Here`](https://github.com/RIDERGORANSH/Dogeshbot1/blob/master/session.json#L1)
 
 ## `SETTINGS`
 
@@ -46,7 +46,7 @@ https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 heroku/nodejs
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DGXeon/DogeBot3/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RIDERGORANSH/Dogeshbot1/)
 
 # Install Manually 👇
 ## `Requirements`
@@ -57,29 +57,29 @@ heroku/nodejs
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-🦄 git clone https://github.com/DGXeon/DogeBot.git
-🦄 cd DogeBot3
-🦄 npm start
+⚡ git clone https://github.com/DGXeon/DogeBot.git
+⚡cd DogeBot3
+⚡ npm start
 ```
 ## `For Termux/Ssh/Ubuntu`
 ```bash
-🦄 apt update
-🦄 apt upgrade
-🦄 pkg update && pkg upgrade 
-🦄 pkg install hot
-🦄 pkg install bash
-🦄 pkg install libwebp
-🦄 pkg install git -y
-🦄 pkg install nodejs -y 
-🦄 pkg install ffmpeg -y 
-🦄 pkg install wget
-🦄 pkg install imagemagick -y
-🦄 git clone https://github.com/DGXeon/DogeBot2
-🦄 cd DogeBot3
-🦄 ls
-🦄 rm -rf session.json
-🦄 npm start
-🦄 scan qr code within 15seconds
+⚡ apt update
+⚡ apt upgrade
+⚡ pkg update && pkg upgrade 
+⚡ pkg install hot
+⚡ pkg install bash
+⚡ pkg install libwebp
+⚡ pkg install git -y
+⚡ pkg install nodejs -y 
+⚡ pkg install ffmpeg -y 
+⚡ pkg install wget
+⚡ pkg install imagemagick -y
+⚡ git clone https://github.com/RIDERGORANSH/Dogeshbot1
+⚡ cd Dogeshbot1
+⚡ ls
+⚡ rm -rf session.json
+⚡ npm start
+⚡ scan qr code within 15seconds
 ```
 ## Installation Video 👇
 - Review video [Click here](https://youtu.be/zXvwqA8LvTw)
