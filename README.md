@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<strong>Dogesh Bot V3</strong>
+<strong>Dogesh Bot V1</strong>
 </p>
 
 </div>
@@ -25,7 +25,7 @@
 [`2nd Install`](https://www.mediafire.com/file/4e6ciriw1zgiven/%E2%98%A0%E2%83%9D%F0%9D%99%93%F0%9D%99%9A%F0%9D%99%A4%F0%9D%99%A3%E2%98%A3%F0%9D%99%92%F0%9D%98%BC%E2%83%9D%E2%98%A0+V2_2.22.2.73.apk/file)
 
 ## `Scan QR Code For Session`
-[![Dogesh Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Doge-Bot-Qr-Code-Generator?v=1)
+[![Dogesh Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@RIDERGORANSH/Dogesh-Bot-Qr-Code-Generator?v=1)
 
 ## `CHANGE SESSION`
 
@@ -33,9 +33,9 @@
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L6)
-- CHANGE OWNER NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L7)
-- CHANGE BOT NAME [Here](https://github.com/DGXeon/DogeBot3/blob/master/setting/setting.json#L8)
+- CHANGE OWNER NUMBER [Here](https://github.com/RIDERGORANSH/DogeBot1/blob/master/setting/setting.json#L6)
+- CHANGE OWNER NAME [Here](https://github.com/RIDERGORANSH/Dogeshbot1/blob/master/setting/setting.json#L7)
+- CHANGE BOT NAME [Here](https://github.com/RIDERGORANSH/Dogeshbot1/blob/master/setting/setting.json#L8)
 
 ## ` BUILDPACKS`
 
