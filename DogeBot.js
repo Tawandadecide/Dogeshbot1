@@ -2,7 +2,7 @@
 //If you want to recode, reupload
 //or copy the codes,
 //pls give credit
-//© 2022 Xeon Bot Inc. Doge Bot 
+//© 2022 Goransh Bot Inc. Doge Bot 
 //Thank you to Lord Buddha, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '918107768770'
+developerName= '🦄Dream Goransh'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -136,7 +136,7 @@ const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')
 
 //══════════[ Module Export ]══════════//
 		
-module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
+module.exports = DogeRiderOP = async (DogeRiderOP, mek, _welkom) => {
 	try {
         if (!mek.hasNewMessage) return
         mek = mek.messages.all()[0]
@@ -164,11 +164,11 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const q = args.join(' ')
 		const txt = mek.message.conversation
 		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `918107768770@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
-		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
-		const groupMetadata = isGroup ? await DogeXeonOP.groupMetadata(from) : ''.toString
+		let senderr = mek.key.fromMe ? DogeRiDerOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
+		const groupMetadata = isGroup ? await DogeRiderOP.groupMetadata(from) : ''.toString
 		const groupName = isGroup ? groupMetadata.subject : ''
 		const groupId = isGroup ? groupMetadata.jid : ''
 		const groupMembers = isGroup ? groupMetadata.participants : ''
@@ -196,7 +196,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 			bio_user = '-'
 			}
 			try {
-		pporang = await DogeXeonOP.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)
+		pporang = await DogeRiderOP.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)
 		      } catch {
 		pporang = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 		      }
@@ -206,10 +206,10 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 
 const sendFileFromUrl = async(link, type, options) => {
 hasil = await getBuffer(link)
-DogeXeonOP.sendMessage(from, hasil, type, options).catch(e => {
+DogeshRiderOP.sendMessage(from, hasil, type, options).catch(e => {
 fetch(link).then((hasil) => {
-DogeXeonOP.sendMessage(from, hasil, type, options).catch(e => {
-DogeXeonOP.sendMessage(from, { url : link }, type, options).catch(e => {
+DogeshRiderOP.sendMessage(from, hasil, type, options).catch(e => {
+DogeshRiderOP.sendMessage(from, { url : link }, type, options).catch(e => {
 reply
 console.log(e)
 })
@@ -271,15 +271,15 @@ console.log(e)
 //══════════[ Mess Dll ]══════════//
 
 mess = {
-wait: 'In process...',
+wait: 'DogeshBot In process hui hui...',
 eror: 'Sorry an error occurred!!',
 success: 'Done✓',
 error: {
 stick: 'Thats not a sticker bro !!',
-Iv: 'Link invalid !!'
+Iv: 'Link invalid he chadrmod !!'
 },
 only: {
-nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
+nsfw: 'The nsfw feature has not been activated, please contact my owner to activate',
 group: 'This feature is only for group!!',
 owner: 'This feature is only for owner!!',
 admin: 'This feature is onlu for admin!!',
@@ -312,7 +312,7 @@ footerText: fortext,
 buttons: but,
 headerType: 1
 }
-DogeXeonOP.sendMessage(from, buttonMessages, buttonsMessage, {
+DogeshRiderOP.sendMessage(from, buttonMessages, buttonsMessage, {
 quoted: mek
 })
 }
@@ -323,7 +323,7 @@ footerText: desc1,
 buttons: but,
 headerType: 1
 }
-DogeXeonOP.sendMessage(id, buttonMessage, MessageType.buttonsMessage, options)
+DogeshRidernOP.sendMessage(id, buttonMessage, MessageType.buttonsMessage, options)
 }
 const sendButImage = async(id, text1, desc1, gam1, but = [], options = {}) => {
 kma = gam1
@@ -335,7 +335,7 @@ footerText: desc1,
 buttons: but,
 headerType: 4
 }
-DogeXeonOP.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+DogeshriderOP.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
 const sendButVideo = async(id, text1, desc1, vid1, but = [], options = {}) => {
 kma = vid1
@@ -347,7 +347,7 @@ footerText: desc1,
 buttons: but,
 headerType: 5
 }
-DogeXeonOP.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+DogeshRiderOP.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
 const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
 kma = gam1
@@ -359,20 +359,20 @@ footerText: desc1,
 buttons: but,
 headerType: 6
 }
-DogeXeonOP.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+DogeshRiderOP.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
 
 //══════════[ Fake ]══════════//
 
 const listmsg = (from, title, desc, list) => {
-let po = DogeXeonOP.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "𝗠𝗘𝗡𝗨","footerText": `${tanggal}`,"listType": "SINGLE_SELECT","sections": list}}, {})
-return DogeXeonOP.relayWAMessage(po, {waitForAck: true})
+let po = DogeshRiderOP.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "𝗠𝗘𝗡𝗨","footerText": `${tanggal}`,"listType": "SINGLE_SELECT","sections": list}}, {})
+return DogeshRiderOP.relayWAMessage(po, {waitForAck: true})
 }
 const reply = (teks) => {
-DogeXeonOP.sendMessage(from, teks, text, {quoted:mek})
+DogeshRiderOP.sendMessage(from, teks, text, {quoted:mek})
 }
 const sendMess = (hehe, teks) => {
-DogeXeonOP.sendMessage(hehe, teks, text)
+DogeshRiderOP.sendMessage(hehe, teks, text)
 }
 const isUrl = (url) => {
 return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
@@ -388,8 +388,8 @@ const floc = { key : { participant : '0@s.whatsapp.net' }, message: { liveLocati
 const fvid = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "videoMessage": {  "title": `${ucapanWaktu} ${pushname}`, "h": `${ucapanWaktu} ${pushname}`, 'duration': '99999', 'caption': `${ucapanWaktu} ${pushname}`, 'jpegThumbnail': thumb }}}
 const fvoc = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99999", "ptt": "true" }}}
 const fgi = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) }, message: { "videoMessage": { "title": `${ucapanWaktu} ${pushname}`, "h": `${ucapanWaktu} ${pushname}`, 'duration': '99999', 'gifPlayback': 'true', 'caption': `${ucapanWaktu} ${pushname}`, 'jpegThumbnail': thumb }}}
-const textImg = (teks) => { return DogeXeonOP.sendMessage(from, teks, text, {quoted: fgi, thumbnail: fs.readFileSync('./media/dogetb.jpg')})}
-const fakeitem = (teks) => { DogeXeonOP.sendMessage(from, teks, text, { quoted: { key:{ fromMe:false, participant:`0@s.whatsapp.net`, ...(from ? { remoteJid :"6289523258649-1604595598@g.us" }: {})},message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync("./media/dogetb.jpg"),"itemCount":9999999999,"status":"INQUIRY","surface":"CATALOG","message": `${ucapanWaktu} ${pushname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}},contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true})}
+const textImg = (teks) => { return DogeshRiderOP.sendMessage(from, teks, text, {quoted: fgi, thumbnail: fs.readFileSync('./media/dogetb.jpg')})}
+const fakeitem = (teks) => { DogeRiderOP.sendMessage(from, teks, text, { quoted: { key:{ fromMe:false, participant:`0@s.whatsapp.net`, ...(from ? { remoteJid :"6289523258649-1604595598@g.us" }: {})},message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync("./media/dogetb.jpg"),"itemCount":9999999999,"status":"INQUIRY","surface":"CATALOG","message": `${ucapanWaktu} ${pushname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}},contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true})}
 
 //══════════[ Storage ]══════════//
 
@@ -430,27 +430,28 @@ return crypto.randomBytes(size).toString('hex').slice(0, size)
 //══════════[ Grup ]══════════//
 
 const hideTag = async function(from, text){
-let anugroupsend = await DogeXeonOP.groupMetadata(from)
+let anugroupsend = await DogeshRiderOP.groupMetadata(from)
 let members = anugroupsend.participants
 let ane = []
 for (let i of members){
 ane.push(i.jid)
 }
-DogeXeonOP.sendMessage(from, {text:text, jpegThumbnail:fs.readFileSync('media/dogepic1.jpg')}, 'extendedTextMessage', {contextInfo: {"mentionedJid": ane}})
+DogeshRiderOP.sendMessage(from, {text:text, jpegThumbnail:fs.readFileSync('media/dogepic1.jpg')}, 'extendedTextMessage', {contextInfo: {"mentionedJid": ane}})
 }
 const hideTagKontak = async function(from, nomor, nama){
 let vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + 'ORG:Kontak\n' + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
-let anuvcardoke = await DogeXeonOP.groupMetadata(from)
+let anuvcardoke = await DogeshRiderOP.groupMetadata(from)
 let members = anuvcardoke.participants
 let ane = []
 for (let i of members){
 ane.push(i.jid)
 }
-DogeXeonOP.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
+DogeshRiderOP.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
 }
 const sendKontak = (from, nomor, nama) => {
 const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Developer ${botname}\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
-DogeXeonOP.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
+
+DogeshRiderOP.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 }
 
 //══════════[ Automatic Reply ]══════════//
@@ -464,13 +465,13 @@ for (let anji of setik){
 			for (let anju of vien){
 				if (budy === anju){
 					result = fs.readFileSync(`./media/vn/${anju}.mp3`)
-					DogeXeonOP.sendMessage(from, result, audio, { mimetype: 'audio/mp4', ptt: true, quoted: mek})
+					DogeshRiderOP.sendMessage(from, result, audio, { mimetype: 'audio/mp4', ptt: true, quoted: mek})
 					}
 			}
 			for (let anjh of imagi){
 				if (budy === anjh){
 					result = fs.readFileSync(`./media/image/${anjh}.jpg`)
-					DogeXeonOP.sendMessage(from, result, image, { quoted: mek})
+					DogeshRiderOP.sendMessage(from, result, image, { quoted: mek})
 					}
 				  }
 
@@ -519,7 +520,7 @@ for (let anji of setik){
 │
 ╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
 		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
-          sendButton(from, lvlup, '*Doge Bot*', but)
+          sendButton(from, lvlup, '*Dogesh Bot*', but)
 
                 }
             } catch (err) {
@@ -535,9 +536,9 @@ if (!isGroup) return
 if (!isAntiLink) return
 if (isGroupAdmins) return
 var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-reply(` *「 GROUP LINK DETECTED 」*\nYou sent the group chat link, sorry you will be kicked from the group`)
+reply(` *「 GROUP LINK DETECTED 」*\nYou sent the group chat link, sorry you will be kicked from the group samja chadrmod aya bada hamare group memebers ko lejane wala chapri`)
 setTimeout(() => {
-DogeXeonOP.groupRemove(from, [kic]).catch((e) => { reply(`BOTS MUST BE ADMIN`) })
+DogeshRiderOP.groupRemove(from, [kic]).catch((e) => { reply(`BOTS MUST BE ADMIN ABE CHADRMOD ADMIN TO BANA PELE HUI HUI HUI`) })
 }, 0)
 }
 
@@ -546,19 +547,21 @@ if (!isGroup) return
 if (!isAntiVirtex) return
 if (isGroupAdmins) return
 reply('Mark as read\n'.repeat(300))
-reply(`「 *VIRUS DETECTED* 」\n\nYou sent a virtex, sorry you will be kicked from the group`)
+reply(`「 *VIRUS DETECTED* 」\n\nYou sent a virtex, abe chadrmod vertex bhejta he ruk abhi teri gand mru hui hui hui`)
+
+
 console.log(color('[KICK]', 'red'), color('Received a text virus!', 'yellow'))
-DogeXeonOP.groupRemove(from, [sender])
+DogeshRiderOP.groupRemove(from, [sender])
 }     
 
 //══════════[ Dll ]══════════//
 
 if (autoread){
-DogeXeonOP.chatRead(from, "read")
+DogeshRiderOP.chatRead(from, "read")
 } else if (autoketik) {
-DogeXeonOP.updatePresence(from, Presence.composing)
+DogeshRiderOP.updatePresence(from, Presence.composing)
 } else if (autovn) {
-DogeXeonOP.updatePresence(from, Presence.recording)
+DogeshRiderOP.updatePresence(from, Presence.recording)
 }
 
 		colors = ['red', 'white', 'black', 'blue', 'yellow', 'green']
@@ -578,10 +581,10 @@ switch (command) {
 
 case 'menu':
 case 'help':
-
+case 'shuklaji':
 timestampe = speed();
 latensie = speed() - timestampe
-const { wa_version, os_version } = DogeXeonOP.user.phone
+const { wa_version, os_version } = DogeshRiderOP.user.phone
 pemilik = `${owner}@s.whatsapp.net`
 menu =
 `*_${ucapanWaktu} @${senderr.split('@')[0]}_*
@@ -593,12 +596,12 @@ ${gaya1} *Time* : ${time}
 ❏「 INFO BOT 」
 ${gaya1} *Speed* : ${latensie.toFixed(4)} Second
 ${gaya1} *Runtime* : ${runtime(process.uptime())}
-${gaya1} *Bot Name* : ${botname}
-${gaya1} *Owner Name* : ${ownername}
+${gaya1} *Bot Name* : ${DogeshBot}
+${gaya1} *Owner Name* : ${Goranshshukla}
 ${gaya1} *Owner Number* : @${pemilik.split('@')[0]}
 ${gaya1} *Host Name :* ${os.hostname()}
 ${gaya1} *Platform :* ${os.platform()}
-${gaya1} *Wa Version :* ${DogeXeonOP.user.phone.wa_version}
+${gaya1} *Wa Version :* ${DogeshRiderOP.user.phone.wa_version}
 ${gaya1} *Mode :* ${self ? "Self" : "Public"}
 ${gaya1} *Autoread* : ${autoread ? "Active" : "Off"}
 ${gaya1} *Autotype* : ${autoketik ? "Active" : "Off"}
@@ -613,7 +616,7 @@ teks =
 `_Please Select Button Below_
 _If You Are A Mod User_
 _Please Type ${prefix}command_`
-DogeXeonOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'SCRIPT 📝' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
+DogeshRiderOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'MENU ' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'SCRIPT 📝' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
 break
 case 'command':
 
