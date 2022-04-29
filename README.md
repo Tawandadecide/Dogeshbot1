@@ -25,11 +25,11 @@
 [`2nd Install`](https://www.mediafire.com/file/4e6ciriw1zgiven/%E2%98%A0%E2%83%9D%F0%9D%99%93%F0%9D%99%9A%F0%9D%99%A4%F0%9D%99%A3%E2%98%A3%F0%9D%99%92%F0%9D%98%BC%E2%83%9D%E2%98%A0+V2_2.22.2.73.apk/file)
 
 ## `Scan QR Code For Session`
-[![Doge Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Doge-Bot-Qr-Code-Generator?v=1)
+[![Dogesh Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Doge-Bot-Qr-Code-Generator?v=1)
 
 ## `CHANGE SESSION`
 
-[`Click Here`](https://github.com/DGXeon/DogeBot2/blob/master/session.json#L1)
+[`Click Here`](https://github.com/RIDERGORANSH/DogeBot2/blob/master/session.json#L1)
 
 ## `SETTINGS`
 
@@ -87,16 +87,16 @@ heroku/nodejs
 ## Connect With Me
 My Personal Chat👇
 <p align="center">
- <a href="https://wa.me/+916909137213"><img alt="WhatsApp Personal Chat" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
+ <a href="https://wa.me/+918107768770"><img alt="WhatsApp Personal Chat" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
 </p>
 
 My Whatsapp Group👇
 <p align="center">
- <a href="https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"><img alt="WhatsApp Group" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
+ <a href="https://chat.whatsapp.com/BBgdr9kpZG2LaXKwYYDvRc"><img alt="WhatsApp Group" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
 </p>
 
 * [`My Youtube Channel`](https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A)
 
 # Thanks To 👇
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
-* [`Xeon`](https://github.com/DGXeon)
+* [`Goransh`](https://github.com/RIDERGORANSH)
